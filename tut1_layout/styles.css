@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*THIS IS A CSS COMMENT*/
+	#wrapper {
+		width:1020px;
+	}
+
+/*Creating two column layout for main content*/
+	#main {
+		float: left; /*positions to the left*/
+		width: 72%; /*72 percent of the space within article*/
+	}
+
+	#sidebar {
+   		float:right;
+		width:22%;
+	}
+	
+	footer{
+		clear:both;
+	}
